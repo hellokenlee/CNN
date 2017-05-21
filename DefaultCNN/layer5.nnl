@@ -1,0 +1,7 @@
+MeanPoolingLayer  modify_at 2105-8-12 14:8:45
+
+InputNum 50
+OutputNum 50
+BatchSize 1
+InputMatrix 8 8
+ConvMatrix 2 2

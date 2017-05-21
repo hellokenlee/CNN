@@ -1,0 +1,6 @@
+MinistInputLayer  modify_at 2105-8-12 14:8:45
+
+InputNum 784
+NetworkOutputNum 10
+BatchSize 1
+InputFile TestData/TestSet.csv

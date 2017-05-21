@@ -1,0 +1,23 @@
+NeuralNetwork modify_at 2015-8-12 14:8:45
+Power by KenLee@2015
+
+Network:
+LayerNum 12
+BatchSize 1
+InputNum 784
+OutputNum 10
+LearningRate 0.050000
+
+Layers:
+layer[0] MinistInputLayer ./DefaultCNN/layer0.nnl
+layer[1] ConvolutionalLayer ./DefaultCNN/layer1.nnl
+layer[2] MeanPoolingLayer ./DefaultCNN/layer2.nnl
+layer[3] SigmoidLayer ./DefaultCNN/layer3.nnl
+layer[4] ConvolutionalLayer ./DefaultCNN/layer4.nnl
+layer[5] MeanPoolingLayer ./DefaultCNN/layer5.nnl
+layer[6] SigmoidLayer ./DefaultCNN/layer6.nnl
+layer[7] FullyConnectedLayer ./DefaultCNN/layer7.nnl
+layer[8] SigmoidLayer ./DefaultCNN/layer8.nnl
+layer[9] FullyConnectedLayer ./DefaultCNN/layer9.nnl
+layer[10] SigmoidLayer ./DefaultCNN/layer10.nnl
+layer[11] SquareLossLayer ./DefaultCNN/layer11.nnl

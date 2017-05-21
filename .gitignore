@@ -1,0 +1,9 @@
+bin/*
+obj/*
+*.cbp
+*.depend
+*.layout
+*.txt
+*.xml
+*.ini
+TestData/*
